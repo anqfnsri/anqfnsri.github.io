@@ -34,7 +34,15 @@ header {
   top: 0;
   z-index: 100;
 }
-
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%; /* Makes the image a clean circle */
+  object-fit: cover;  /* Keeps image proportions intact */
+  border: 3px solid var(--primary-color);
+  margin: 0 auto 1.5rem auto;
+  display: block;
+}
 nav {
   display: flex;
   justify-content: space-between;

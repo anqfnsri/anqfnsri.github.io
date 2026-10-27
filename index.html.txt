@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SCST1133 E-Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<h1>Your Name</h1>
-<p>SCST1133 Data Engineering Ecosystem</p>
-<nav>
-<a href="#about">About</a>
-<a href="#work">Selected Work</a>
-<a href="#reflection">Reflection</a>
-</nav>
-</header>
 
-<main>
-<section id="about">
-<h2>Professional Profile</h2>
-<p>Write a short professional introduction here.</p>
-</section>
+  <!-- Navigation -->
+  <header>
+    <nav class="container">
+      <a href="#" class="logo">YourName</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section id="work">
-<h2>Selected Work</h2>
-<article>
-<h3>Design Thinking and Figma</h3>
-<img src="images/project-screenshot.png"
-alt="Screenshot of my Figma prototype">
-<p>Explain the artifact and your contribution.</p>
-</article>
-</section>
+  <!-- Hero Section -->
+  <section id="hero" class="container">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+      <p>A Web Developer passionate about building functional and modern web experiences.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
 
-<section id="reflection">
-<h2>Course Reflection</h2>
-<p>Explain what you learned and what you would improve.</p>
-</section>
-</main>
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A web application built using HTML, CSS, and JavaScript that solves a specific problem.</p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">Source Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>An interactive portfolio template designed for performance and accessibility.</p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="#" target="_blank">Source Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<footer><p>© 2026 Your Name</p></footer>
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2>Get In Touch</h2>
+    <p>I am currently open to new opportunities and project collaborations.</p>
+    <a href="mailto:your.email@example.com" class="btn">Say Hello</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>

@@ -313,6 +313,9 @@ h2.title {
 
 .card .body { padding: 20px 22px 24px; }
 
+/* Events: each card keeps its own height, so only the talk with a poster grows */
+#events .grid { align-items: start; }
+
 /* Event poster at the top of a card. Shown in full, never cropped. */
 .poster {
   display: block;

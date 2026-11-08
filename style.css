@@ -313,6 +313,20 @@ h2.title {
 
 .card .body { padding: 20px 22px 24px; }
 
+/* Event poster at the top of a card. Shown in full, never cropped. */
+.poster {
+  display: block;
+  border-bottom: 1px solid var(--line);
+  background: var(--card);
+}
+.poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.2s ease;
+}
+.poster:hover img { opacity: 0.88; }
+
 .kind {
   margin: 0 0 6px;
   font-family: var(--font-mono);
